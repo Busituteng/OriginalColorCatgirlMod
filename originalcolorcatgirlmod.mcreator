@@ -1,0 +1,167 @@
+{
+  "id_map": {
+    "ENTITY": 3
+  },
+  "mod_elements": [
+    {
+      "name": "OriginalColorCatgirlRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OriginalColorCatgirlEntityIsHurt",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OriginalColorCatgirlEntityDies",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OriginalColorCatgirl",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OCCM",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Texture",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MosinNagant",
+      "type": "gun",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "OriginalColorFoodEaten",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OriginalColor",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bullet1",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.texture.name": "Texture",
+      "item.mosinnagant.name": "Mosin Nagant",
+      "entity.originalcolorcatgirl.name": "Original Color Catgirl",
+      "itemGroup.taboccm": "Original Color Catgirl Mod",
+      "item.bullet.name": "Bullet",
+      "item.originalcolor.name": "Original Color",
+      "item.logo.name": "Logo"
+    },
+    "zh_cn": {
+      "item.texture.name": "无用材质",
+      "item.mosinnagant.name": "莫辛-纳甘喵步枪",
+      "entity.originalcolorcatgirl.name": "原色喵呜姬",
+      "itemGroup.taboccm": "原色喵呜姬模组",
+      "item.bullet.name": "步枪子弹",
+      "item.originalcolor.name": "原色",
+      "item.logo.name": "模组图标"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "originalcolorcatgirlmod",
+    "modName": "OriginalColorCatgirlMod",
+    "version": "1.0beta",
+    "description": "Original Color Is Awesome!",
+    "author": "BunnimiTotem,Yuanse",
+    "websiteURL": "https://center.mcmod.cn/276896/",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "cover",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "BT,YS,MCr",
+    "modElementsPackage": "net.mcreator.originalcolorcatgirlmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
